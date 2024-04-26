@@ -1,0 +1,202 @@
+:root {
+    --primary-color: #ffe4c4;
+    --white-smoke: whitesmoke;
+    --black: black;
+    --red: red;
+}
+
+body { 
+    background-color: var(--primary-color); 
+    margin: 0px;
+}
+
+.b { 
+    margin: auto;
+    background-color: var(--primary-color);
+}
+
+.margins { 
+    margin-bottom: 1em;
+}
+
+.title-text { 
+    text-align: center;
+    margin: auto;
+    font-size: larger;
+}
+
+.label-input {
+    text-align: center;
+    margin: auto;
+    font-size: larger;
+}
+
+#dateBox {
+    text-align: center;
+    border-radius: 0.2rem;
+}
+
+#lucky-number {
+    display: block;
+    margin: auto;
+
+    resize: none; 
+
+    border-radius: 0.5em;
+    padding: 0.5rem;
+
+    text-align: center;
+}
+
+#btn-check {
+    display: block;
+    margin: auto;
+
+    background-color: var(--primary-color);
+    border-radius: 0.5em;
+
+    padding: 0.5rem;
+}
+
+.list-non-bullet { 
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {  
+    display: inline;
+    padding-right: 0.5rem;   
+}
+
+.footer { 
+    text-align: center;
+    padding: 3rem;
+    background-color: var(--white-smoke);
+}
+
+.footer ul li a { 
+    text-decoration: none;
+    color: var(--black);
+}
+
+#footer-note {
+    font-size: larger;
+}
+
+#privacy { 
+    font-size: larger;
+    padding: 1rem;
+    text-align: center;
+}
+
+span { 
+    color: var(--red);
+}
+
+.image-result { 
+    display: block;
+    margin: auto;
+    height: 350px;
+    background-position: center;
+    padding: 2rem;
+  
+    background-image: url("https://github.com/swapnilbawane/birthday-luckyv1/blob/main/assets/curiousbgsized.jpg?raw=true");
+    background-repeat: no-repeat;
+    
+}
+
+.luckyimage {
+   display: block;
+    margin: auto;
+    height: 350px;
+    background-position: center;
+    padding: 2rem;
+  
+  background-image: url("https://github.com/swapnilbawane/birthday-luckyv1/blob/main/assets/party4.png?raw=true");
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.notsoluckyimage{
+ display: block;
+    margin: auto;
+    height: 350px;
+    background-position: center;
+    padding: 2rem;
+  
+background-image: url("https://github.com/swapnilbawane/birthday-luckyv1/blob/main/assets/ohnocolored.jpg?raw=true");
+background-repeat: no-repeat;
+text-align: center;
+}
+
+.incorrectimage {
+  display: block;
+    margin: auto;
+    height: 350px;
+    background-position: center;
+    padding: 2rem;
+  
+  background-image: url("https://github.com/swapnilbawane/birthday-luckyv1/blob/main/assets/ohnocolored.jpg?raw=true");
+      background-repeat: no-repeat;
+      text-align: center;
+}
+
+.luckymessage {
+        
+  display: block;
+  color: white;
+  background-color: green;
+
+    border: solid black 1px;;
+    border-radius: 0.5rem;
+
+    text-align: center;
+    width:fit-content; 
+
+    margin: auto;
+    padding: 1rem;
+
+    font-size: larger;
+    font-style: bold;
+}
+
+.notsoluckymessage {
+   display: block; 
+   color: white;
+    background-color: orange;
+
+  border: solid black 1px;;
+    border-radius: 0.5rem;
+
+    text-align: center;
+    width:fit-content; 
+
+    margin: auto;
+    padding: 1rem;
+
+    font-size: larger;
+    font-style: bold;
+}
+
+.incorrectinputtext {
+  display: block;
+      color: white;
+      background-color: red;
+
+  border: solid black 1px;;
+    border-radius: 0.5rem;
+
+    text-align: center;
+    width:fit-content; 
+
+    margin: auto;
+    padding: 1rem;
+
+    font-size: larger;
+    font-style: bold;
+}
+
+
+
+  
+        
